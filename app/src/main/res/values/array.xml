@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "fruit">
+        <item>abocado</item>
+        <item>banana</item>
+        <item>cherry</item>
+        <item>cranberry</item>
+        <item>grape</item>
+        <item>kiwi</item>
+        <item>orange</item>
+        <item>watermelon</item>
+        <item>아보카도</item>
+        <item>바나나</item>
+        <item>체리</item>
+        <item>크렌베리</item>
+        <item>포도</item>
+        <item>키위</item>
+        <item>오렌지</item>
+        <item>수박</item>
+    </string-array>
+</resources>
