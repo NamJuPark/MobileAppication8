@@ -83,6 +83,15 @@ public class MainActivity extends AppCompatActivity {
                 iv.setImageResource(fruit.get(i).imgno);
                 b_add.setText("M");
 
+                if(one.imgno == R.drawable.abocado) {addFruit.imgno = 0;}
+                else if(one.imgno == R.drawable.banana) {addFruit.imgno = 1;}
+                else if(one.imgno == R.drawable.cherry) {addFruit.imgno = 2;}
+                else if(one.imgno == R.drawable.cranberry) {addFruit.imgno = 3;}
+                else if(one.imgno == R.drawable.grape) {addFruit.imgno = 4;}
+                else if(one.imgno == R.drawable.kiwi) {addFruit.imgno = 5;}
+                else if(one.imgno == R.drawable.orange) {addFruit.imgno = 6;}
+                else if(one.imgno == R.drawable.watermelon) {addFruit.imgno = 7;}
+
                 addFruit.setOnChangeListener(new AddFruit.OnChangeListener() {
                     @Override
                     public void onChange(String name, String price, int imano) {

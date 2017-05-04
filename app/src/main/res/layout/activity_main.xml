@@ -36,7 +36,6 @@
         android:id="@+id/addFruit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
     </com.example.mapplication8.AddFruit>
 
 </LinearLayout>
